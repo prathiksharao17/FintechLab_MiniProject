@@ -1,0 +1,59 @@
+/* Manager Dashboard Styles */
+.manager-dashboard {
+  padding: 30px 40px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa; /* Light background for the dashboard */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+h2 {
+  text-align: center;
+  color: black; /* Changed to black as requested */
+  font-size: 36px;
+  margin-bottom: 40px; /* Increased bottom margin for better spacing */
+}
+
+.leave-requests {
+  margin-top: 40px;
+}
+
+.leave-requests table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.leave-requests th, .leave-requests td {
+  padding: 16px 20px; /* Increased padding for better spacing */
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.leave-requests th {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px; /* Increased font size for table headers */
+}
+
+.leave-requests tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  padding: 10px 20px; /* Slightly larger padding for better button size */
+  margin: 10px 5px; /* Increased margin for better spacing between buttons */
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Slightly larger font size for better readability */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
